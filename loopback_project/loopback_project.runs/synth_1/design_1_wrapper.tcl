@@ -57,6 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param general.usePosixSpawnForFork 1
+set_param bd.open.in_stealth_mode 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
@@ -71,7 +72,10 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {/home/adam-lorenz/.Xilinx/Vivado/2026.1/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_repo_paths /home/adam-lorenz/Main/Vivado_Projects/ip_repo/math_accelerator_1_0 [current_project]
+set_property ip_repo_paths {
+  /home/adam-lorenz/Main/Vivado_Projects/ip_repo/loopback_addr5_1_0
+  /home/adam-lorenz/Main/Vivado_Projects/ip_repo/math_accelerator_1_0
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]

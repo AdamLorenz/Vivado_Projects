@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2026.1 (lin64) Build 6511674 Tue Jun 16 11:01:26 MDT 2026
 -- Date        : Fri Aug 28 14:43:10 2026
 -- Host        : adam-lorenz-MS-7D43 running 64-bit Ubuntu 24.04.4 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_math_accelerator_0_0 -prefix
+--               design_1_math_accelerator_0_0_ design_1_math_accelerator_0_0_sim_netlist.vhdl
 -- Design      : design_1_math_accelerator_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -35,8 +35,6 @@ entity design_1_math_accelerator_0_0_math_accelerator_slave_lite_v1_0_S00_AXI is
     s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_bready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_math_accelerator_0_0_math_accelerator_slave_lite_v1_0_S00_AXI : entity is "math_accelerator_slave_lite_v1_0_S00_AXI";
 end design_1_math_accelerator_0_0_math_accelerator_slave_lite_v1_0_S00_AXI;
 
 architecture STRUCTURE of design_1_math_accelerator_0_0_math_accelerator_slave_lite_v1_0_S00_AXI is
@@ -1901,8 +1899,6 @@ entity design_1_math_accelerator_0_0_math_accelerator is
     s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_bready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_math_accelerator_0_0_math_accelerator : entity is "math_accelerator";
 end design_1_math_accelerator_0_0_math_accelerator;
 
 architecture STRUCTURE of design_1_math_accelerator_0_0_math_accelerator is

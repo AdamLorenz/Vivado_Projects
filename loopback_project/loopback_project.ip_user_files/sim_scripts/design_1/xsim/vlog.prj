@@ -1,0 +1,18 @@
+verilog xil_defaultlib -i "../../../../../../../2026.1/data/rsb/busdef" --include "/home/adam-lorenz/2026.1/data/xilinx_vip/include" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/df05/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_axi_smc_1/bd_0/sim/bd_6f02.v" \
+
+sv xil_defaultlib -i "../../../../../../../2026.1/data/rsb/busdef" --include "/home/adam-lorenz/2026.1/data/xilinx_vip/include" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/df05/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_0/sim/bd_6f02_sc_ul_0.sv" \
+"../../../bd/design_1/ip/design_1_axi_smc_1/sim/design_1_axi_smc_1.sv" \
+
+verilog xil_defaultlib -i "../../../../../../../2026.1/data/rsb/busdef" --include "/home/adam-lorenz/2026.1/data/xilinx_vip/include" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/df05/hdl" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" --include "../../../../loopback_project.gen/sources_1/bd/design_1/ipshared/00fe/hdl/verilog" \
+"../../../bd/design_1/ipshared/422c/hdl/loopback_addr5_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/422c/hdl/loopback_addr5.v" \
+"../../../bd/design_1/ip/design_1_loopback_addr5_0_0/sim/design_1_loopback_addr5_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

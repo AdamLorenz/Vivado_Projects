@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2026.1 (lin64) Build 6511674 Tue Jun 16 11:01:26 MDT 2026
 // Date        : Fri Aug 28 14:43:21 2026
 // Host        : adam-lorenz-MS-7D43 running 64-bit Ubuntu 24.04.4 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/design_1_axi_smc_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_smc_1 -prefix
+//               design_1_axi_smc_1_ design_1_axi_smc_1_stub.v
 // Design      : design_1_axi_smc_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1

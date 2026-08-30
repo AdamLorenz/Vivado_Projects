@@ -105,6 +105,7 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param general.usePosixSpawnForFork 1
+  set_param bd.open.in_stealth_mode 1
   set_param chipscope.maxJobs 3
   set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
@@ -117,7 +118,10 @@ OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
   set_property webtalk.parent_dir /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.cache/wt [current_project]
   set_property parent.project_path /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.xpr [current_project]
-  set_property ip_repo_paths /home/adam-lorenz/Main/Vivado_Projects/ip_repo/math_accelerator_1_0 [current_project]
+  set_property ip_repo_paths {
+  /home/adam-lorenz/Main/Vivado_Projects/ip_repo/loopback_addr5_1_0
+  /home/adam-lorenz/Main/Vivado_Projects/ip_repo/math_accelerator_1_0
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

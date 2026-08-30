@@ -8,8 +8,8 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Fri Aug 28 14:43:23 2026
-# Process ID         : 58590
+# Start of session at: Sat Aug 29 20:57:12 2026
+# Process ID         : 53888
 # Current directory  : /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1
 # Command line       : vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file           : /home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/design_1_wrapper.vds
@@ -18,25 +18,26 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.4 LTS
 # Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12400
-# CPU Frequency      : 3999.874 MHz
+# CPU Frequency      : 4000.289 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 16540 MB
 # Swap memory        : 4294 MB
 # Total Virtual      : 20835 MB
-# Available Virtual  : 11312 MB
+# Available Virtual  : 13091 MB
 #-----------------------------------------------------------
 
 ****** Vivado v2026.1 (64-bit)
   **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
   **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
   **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-  **** Start of session at: Fri Aug 28 14:43:23 2026
+  **** Start of session at: Sat Aug 29 20:57:12 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/adam-lorenz/Main/Vivado_Projects/ip_repo/loopback_addr5_1_0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/adam-lorenz/Main/Vivado_Projects/ip_repo/math_accelerator_1_0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/adam-lorenz/2026.1/data/ip'.
 Command: synth_design -top design_1_wrapper -part xc7z020clg400-1
@@ -47,23 +48,23 @@ INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Designutils 20-5008] Incremental synthesis strategy default
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 58648
+INFO: [Synth 8-7075] Helper process launched with PID 53944
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2425.059 ; gain = 516.062 ; free physical = 5018 ; free virtual = 9464
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2433.914 ; gain = 524.945 ; free physical = 302 ; free virtual = 11190
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_1' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_axi_smc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_1' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_axi_smc_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_math_accelerator_0_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_math_accelerator_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_math_accelerator_0_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_math_accelerator_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_1' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_1' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_axi_smc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_math_accelerator_0_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_math_accelerator_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_math_accelerator_0_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_math_accelerator_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:222]
 WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:222]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 65 connections declared, but only 63 given [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:222]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-58590-adam-lorenz-MS-7D43/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/.Xil/Vivado-53888-adam-lorenz-MS-7D43/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:286]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:286]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:286]
@@ -72,57 +73,57 @@ WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_5
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2526.996 ; gain = 618.000 ; free physical = 4903 ; free virtual = 9353
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2526.883 ; gain = 617.914 ; free physical = 293 ; free virtual = 11085
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2529.965 ; gain = 620.969 ; free physical = 4903 ; free virtual = 9353
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2535.789 ; gain = 626.820 ; free physical = 292 ; free virtual = 11084
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2529.965 ; gain = 620.969 ; free physical = 4903 ; free virtual = 9353
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2535.789 ; gain = 626.820 ; free physical = 292 ; free virtual = 11084
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2529.965 ; gain = 0.000 ; free physical = 4903 ; free virtual = 9353
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2535.789 ; gain = 0.000 ; free physical = 293 ; free virtual = 11084
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0_in_context.xdc] for cell 'design_1_i/math_accelerator_0'
-Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0_in_context.xdc] for cell 'design_1_i/math_accelerator_0'
 Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
 Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
 Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
 Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
 Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/design_1_axi_smc_1/design_1_axi_smc_1_in_context.xdc] for cell 'design_1_i/axi_smc'
 Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/design_1_axi_smc_1/design_1_axi_smc_1_in_context.xdc] for cell 'design_1_i/axi_smc'
+Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0_in_context.xdc] for cell 'design_1_i/math_accelerator_0'
+Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.gen/sources_1/bd/design_1/ip/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0/design_1_math_accelerator_0_0_in_context.xdc] for cell 'design_1_i/math_accelerator_0'
 Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2577.617 ; gain = 0.000 ; free physical = 4906 ; free virtual = 9355
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2584.715 ; gain = 0.000 ; free physical = 284 ; free virtual = 11076
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2577.652 ; gain = 0.000 ; free physical = 4906 ; free virtual = 9355
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2584.750 ; gain = 0.000 ; free physical = 284 ; free virtual = 11075
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2577.652 ; gain = 668.656 ; free physical = 4674 ; free virtual = 9144
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2584.750 ; gain = 675.781 ; free physical = 274 ; free virtual = 11066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2585.621 ; gain = 676.625 ; free physical = 4673 ; free virtual = 9143
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2592.719 ; gain = 683.750 ; free physical = 274 ; free virtual = 11066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2585.621 ; gain = 676.625 ; free physical = 4694 ; free virtual = 9164
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2592.719 ; gain = 683.750 ; free physical = 274 ; free virtual = 11066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2585.621 ; gain = 676.625 ; free physical = 4686 ; free virtual = 9157
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2592.719 ; gain = 683.750 ; free physical = 273 ; free virtual = 11066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -144,25 +145,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2585.621 ; gain = 676.625 ; free physical = 4770 ; free virtual = 9249
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2592.719 ; gain = 683.750 ; free physical = 264 ; free virtual = 11062
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2699.621 ; gain = 790.625 ; free physical = 4685 ; free virtual = 9163
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2698.719 ; gain = 789.750 ; free physical = 270 ; free virtual = 10969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2699.621 ; gain = 790.625 ; free physical = 4685 ; free virtual = 9163
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2698.719 ; gain = 789.750 ; free physical = 270 ; free virtual = 10969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2709.637 ; gain = 800.641 ; free physical = 4677 ; free virtual = 9155
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2708.734 ; gain = 799.766 ; free physical = 262 ; free virtual = 10962
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -180,37 +181,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -236,26 +237,26 @@ Report Cell Usage:
 |4     |design_1_rst_ps7_0_50M        |     1|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.449 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.547 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2915.449 ; gain = 958.766 ; free physical = 4518 ; free virtual = 8996
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.457 ; gain = 1006.453 ; free physical = 4518 ; free virtual = 8996
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2914.547 ; gain = 956.617 ; free physical = 179 ; free virtual = 10778
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2914.555 ; gain = 1005.578 ; free physical = 179 ; free virtual = 10778
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2915.457 ; gain = 0.000 ; free physical = 4518 ; free virtual = 8996
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2914.555 ; gain = 0.000 ; free physical = 179 ; free virtual = 10778
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2915.457 ; gain = 0.000 ; free physical = 4691 ; free virtual = 9170
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2914.555 ; gain = 0.000 ; free physical = 332 ; free virtual = 10931
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete | Checksum: 98a5a5e9
 INFO: [Common 17-83] Releasing license: Vivado_Synthesis
-28 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+29 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 2915.484 ; gain = 1206.035 ; free physical = 4701 ; free virtual = 9181
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1974.118; main = 1974.118; forked = 275.036
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3622.840; main = 2915.453; forked = 1037.215
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 2914.582 ; gain = 1206.129 ; free physical = 329 ; free virtual = 10928
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1975.075; main = 1975.075; forked = 275.355
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3629.941; main = 2914.551; forked = 1037.219
 INFO: [Common 17-1381] The checkpoint '/home/adam-lorenz/Main/Vivado_Projects/loopback_project/loopback_project.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Aug 28 14:43:47 2026...
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 29 20:57:36 2026...
